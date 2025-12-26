@@ -1,6 +1,12 @@
 # GaPaTTA
 Code for our paper: "GaPaTTA: Gaussian Entropy-Guided Prompt Placement for Test-Time Adaptation in Semantic Segmentation" (Springer Machine Learning)
 
+## Overview
+
+<p align="center">
+  <img src="figs/GaPaTTA_Frame.png" width="700">
+</p>
+
 ## Prepare Dataset and Checkpoints
 Follow the SVDP reposory https://github.com/Anonymous-012/SVDP
 
