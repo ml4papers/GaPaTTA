@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "/snap/pycharm-professional/443/plugins/python-ce/helpers/profiler/run_profiler.py", line 174, in <module>
+    profiler.run(file)
+  File "/snap/pycharm-professional/443/plugins/python-ce/helpers/profiler/run_profiler.py", line 90, in run
+    execfile(file, globals, globals)  # execute the script
+  File "/snap/pycharm-professional/443/plugins/python-ce/helpers/profiler/prof_util.py", line 31, in execfile
+    exec(compile(contents + "\n", file, 'exec'), glob, loc)
+  File "/home/jonaslei/SVDP/tools/svdp.py", line 318, in <module>
+    main()
+  File "/home/jonaslei/SVDP/tools/svdp.py", line 152, in main
+    cfg = mmcv.Config.fromfile(args.config)
+  File "/home/jonaslei/miniconda3/envs/svdp/lib/python3.7/site-packages/mmcv/utils/config.py", line 341, in fromfile
+    use_predefined_variables)
+  File "/home/jonaslei/miniconda3/envs/svdp/lib/python3.7/site-packages/mmcv/utils/config.py", line 183, in _file2dict
+    check_file_exist(filename)
+  File "/home/jonaslei/miniconda3/envs/svdp/lib/python3.7/site-packages/mmcv/utils/path.py", line 23, in check_file_exist
+    raise FileNotFoundError(msg_tmpl.format(filename))
+FileNotFoundError: file "/home/jonaslei/SVDP/tools/local_configs/segformer/B5/segformer.b5.1024x1024.acdc.160k_p.py" does not exist
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>init param>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+model_lr 0.0003
+prompt_lr 0.0001
+prompt_sparse_rate 0.25
+ema_rate 0.999
+seed 42
+scale 0.1
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>over param>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Snapshot saved to /home/jonaslei/.cache/JetBrains/PyCharm2024.3/snapshots/SVDP/SVDP.pstat

@@ -1,0 +1,110 @@
+wandb_version: 1
+
+config:
+  desc: null
+  value: local_configs/segformer/B5/segformer.b5.1024x1024.acdc.160k_p.py
+checkpoint:
+  desc: null
+  value: segformer.b5.1024x1024.city.160k.pth
+aug_test:
+  desc: null
+  value: false
+out:
+  desc: null
+  value: work_dirs/res.pkl
+format_only:
+  desc: null
+  value: false
+eval:
+  desc: null
+  value: mIoU
+show:
+  desc: null
+  value: false
+show_dir:
+  desc: null
+  value: null
+gpu_collect:
+  desc: null
+  value: false
+tmpdir:
+  desc: null
+  value: null
+options:
+  desc: null
+  value: null
+eval_options:
+  desc: null
+  value: null
+launcher:
+  desc: null
+  value: none
+local_rank:
+  desc: null
+  value: 0
+scale:
+  desc: null
+  value: 0.1
+model_lr:
+  desc: null
+  value: 0.0003
+prompt_lr:
+  desc: null
+  value: 0.0001
+prompt_sparse_rate:
+  desc: null
+  value: 0.25
+seed:
+  desc: null
+  value: 42
+ema_rate:
+  desc: null
+  value: 0.999
+ema_rate_prompt:
+  desc: null
+  value: 0.999
+wandb_login:
+  desc: null
+  value: null
+wandb_project:
+  desc: null
+  value: null
+wandb_name:
+  desc: null
+  value: debug
+_wandb:
+  desc: null
+  value:
+    code_path: code/tools/svdp.py
+    python_version: 3.7.16
+    cli_version: 0.16.2
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1740434257.303653
+    t:
+      1:
+      - 1
+      - 37
+      - 41
+      - 55
+      - 60
+      - 63
+      - 79
+      2:
+      - 1
+      - 37
+      - 41
+      - 55
+      - 60
+      - 63
+      - 79
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.7.16
+      5: 0.16.2
+      8:
+      - 5
+      13: linux-x86_64

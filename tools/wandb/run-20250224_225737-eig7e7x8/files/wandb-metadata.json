@@ -1,0 +1,168 @@
+{
+    "os": "Linux-6.8.0-52-generic-x86_64-with-debian-trixie-sid",
+    "python": "3.7.16",
+    "heartbeatAt": "2025-02-24T21:57:38.595690",
+    "startedAt": "2025-02-24T21:57:37.280877",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/jonaslei/SVDP/tools/svdp.py",
+    "codePathLocal": "svdp.py",
+    "codePath": "tools/svdp.py",
+    "git": {
+        "remote": "https://github.com/Anonymous-012/SVDP.git",
+        "commit": "a0311d871cd58ee01798092c1db102559b8737d8"
+    },
+    "email": null,
+    "root": "/home/jonaslei/SVDP",
+    "host": "jonaslei-Predator-PO7-640",
+    "username": "jonaslei",
+    "executable": "/home/jonaslei/miniconda3/envs/svdp/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 913.2984166666669,
+        "min": 800.0,
+        "max": 5066.666666666667
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 934.961,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 902.564,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 991.835,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 999.989,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 955.21,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 800.595,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 800.314,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 986.74,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 975.042,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 958.849,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5500.0
+        },
+        {
+            "current": 1000.049,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 800.516,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 989.726,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 1000.081,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 999.969,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4200.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 936.7875633239746,
+            "used": 747.6361770629883
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        }
+    ],
+    "memory": {
+        "total": 31.185062408447266
+    }
+}

@@ -1,0 +1,88 @@
+2025-02-25 12:40:33,351 INFO    StreamThr :25819 [internal.py:wandb_internal():89] W&B internal server running at pid: 25819, started at: 2025-02-25 12:40:33.348350
+2025-02-25 12:40:33,357 DEBUG   HandlerThread:25819 [handler.py:handle_request():146] handle_request: status
+2025-02-25 12:40:33,364 INFO    WriterThread:25819 [datastore.py:open_for_write():87] open: /home/jonaslei/SVDP/tools/wandb/run-20250225_124033-dlmlcyk4/run-dlmlcyk4.wandb
+2025-02-25 12:40:33,380 DEBUG   SenderThread:25819 [sender.py:send():382] send: header
+2025-02-25 12:40:33,408 DEBUG   SenderThread:25819 [sender.py:send():382] send: run
+2025-02-25 12:40:34,220 INFO    SenderThread:25819 [dir_watcher.py:__init__():211] watching files in: /home/jonaslei/SVDP/tools/wandb/run-20250225_124033-dlmlcyk4/files
+2025-02-25 12:40:34,221 INFO    SenderThread:25819 [sender.py:_start_run_threads():1139] run started: dlmlcyk4 with start time 1740483633.344963
+2025-02-25 12:40:34,281 DEBUG   HandlerThread:25819 [handler.py:handle_request():146] handle_request: check_version
+2025-02-25 12:40:34,283 DEBUG   SenderThread:25819 [sender.py:send_request():409] send_request: check_version
+2025-02-25 12:40:34,491 DEBUG   HandlerThread:25819 [handler.py:handle_request():146] handle_request: run_start
+2025-02-25 12:40:34,510 DEBUG   HandlerThread:25819 [system_info.py:__init__():27] System info init
+2025-02-25 12:40:34,510 DEBUG   HandlerThread:25819 [system_info.py:__init__():42] System info init done
+2025-02-25 12:40:34,511 INFO    HandlerThread:25819 [system_monitor.py:start():194] Starting system monitor
+2025-02-25 12:40:34,511 INFO    SystemMonitor:25819 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-02-25 12:40:34,512 INFO    HandlerThread:25819 [system_monitor.py:probe():214] Collecting system info
+2025-02-25 12:40:34,514 INFO    SystemMonitor:25819 [interfaces.py:start():190] Started cpu monitoring
+2025-02-25 12:40:34,515 INFO    SystemMonitor:25819 [interfaces.py:start():190] Started disk monitoring
+2025-02-25 12:40:34,518 INFO    SystemMonitor:25819 [interfaces.py:start():190] Started gpu monitoring
+2025-02-25 12:40:34,520 INFO    SystemMonitor:25819 [interfaces.py:start():190] Started memory monitoring
+2025-02-25 12:40:34,522 INFO    SystemMonitor:25819 [interfaces.py:start():190] Started network monitoring
+2025-02-25 12:40:34,536 DEBUG   HandlerThread:25819 [system_info.py:probe():151] Probing system
+2025-02-25 12:40:34,537 DEBUG   HandlerThread:25819 [system_info.py:_probe_git():136] Probing git
+2025-02-25 12:40:34,552 DEBUG   HandlerThread:25819 [system_info.py:_probe_git():144] Probing git done
+2025-02-25 12:40:34,552 DEBUG   HandlerThread:25819 [system_info.py:probe():199] Probing system done
+2025-02-25 12:40:34,553 DEBUG   HandlerThread:25819 [system_monitor.py:probe():223] {'os': 'Linux-6.8.0-52-generic-x86_64-with-debian-trixie-sid', 'python': '3.7.16', 'heartbeatAt': '2025-02-25T11:40:34.536590', 'startedAt': '2025-02-25T11:40:33.325178', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/jonaslei/SVDP/tools/svdp.py', 'codePathLocal': 'svdp.py', 'codePath': 'tools/svdp.py', 'git': {'remote': 'https://github.com/Anonymous-012/SVDP.git', 'commit': 'a0311d871cd58ee01798092c1db102559b8737d8'}, 'email': None, 'root': '/home/jonaslei/SVDP', 'host': 'jonaslei-Predator-PO7-640', 'username': 'jonaslei', 'executable': '/home/jonaslei/miniconda3/envs/svdp/bin/python', 'cpu_count': 16, 'cpu_count_logical': 24, 'cpu_freq': {'current': 1673.2779583333331, 'min': 800.0, 'max': 5066.666666666667}, 'cpu_freq_per_core': [{'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 2599.154, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 1237.378, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.345, 'min': 800.0, 'max': 5500.0}, {'current': 1770.332, 'min': 800.0, 'max': 5500.0}, {'current': 4001.881, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 4001.737, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 804.395, 'min': 800.0, 'max': 5500.0}, {'current': 800.0, 'min': 800.0, 'max': 5500.0}, {'current': 2126.125, 'min': 800.0, 'max': 4200.0}, {'current': 799.234, 'min': 800.0, 'max': 4200.0}, {'current': 801.272, 'min': 800.0, 'max': 4200.0}, {'current': 2344.909, 'min': 800.0, 'max': 4200.0}, {'current': 1953.773, 'min': 800.0, 'max': 4200.0}, {'current': 800.0, 'min': 800.0, 'max': 4200.0}, {'current': 808.639, 'min': 800.0, 'max': 4200.0}, {'current': 894.456, 'min': 800.0, 'max': 4200.0}], 'disk': {'/': {'total': 936.7875633239746, 'used': 735.1657943725586}}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 31.185054779052734}}
+2025-02-25 12:40:34,553 INFO    HandlerThread:25819 [system_monitor.py:probe():224] Finished collecting system info
+2025-02-25 12:40:34,553 INFO    HandlerThread:25819 [system_monitor.py:probe():227] Publishing system info
+2025-02-25 12:40:34,553 DEBUG   HandlerThread:25819 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2025-02-25 12:40:35,120 DEBUG   HandlerThread:25819 [system_info.py:_save_conda():220] Saving conda packages done
+2025-02-25 12:40:35,120 DEBUG   HandlerThread:25819 [system_info.py:_save_code():45] Saving code
+2025-02-25 12:40:35,141 DEBUG   HandlerThread:25819 [system_info.py:_save_code():66] Saving code done
+2025-02-25 12:40:35,142 DEBUG   HandlerThread:25819 [system_info.py:_save_patches():83] Saving git patches
+2025-02-25 12:40:35,232 INFO    Thread-17 :25819 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jonaslei/SVDP/tools/wandb/run-20250225_124033-dlmlcyk4/files/conda-environment.yaml
+2025-02-25 12:40:35,235 INFO    Thread-17 :25819 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jonaslei/SVDP/tools/wandb/run-20250225_124033-dlmlcyk4/files/diff.patch
+2025-02-25 12:40:35,237 INFO    Thread-17 :25819 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jonaslei/SVDP/tools/wandb/run-20250225_124033-dlmlcyk4/files/code/tools/svdp.py
+2025-02-25 12:40:35,238 INFO    Thread-17 :25819 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jonaslei/SVDP/tools/wandb/run-20250225_124033-dlmlcyk4/files/code
+2025-02-25 12:40:35,239 INFO    Thread-17 :25819 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jonaslei/SVDP/tools/wandb/run-20250225_124033-dlmlcyk4/files/code/tools
+2025-02-25 12:40:35,283 INFO    WriterThread:25819 [datastore.py:close():296] close: /home/jonaslei/SVDP/tools/wandb/run-20250225_124033-dlmlcyk4/run-dlmlcyk4.wandb
+2025-02-25 12:40:35,462 INFO    SenderThread:25819 [sender.py:finish():1572] shutting down sender
+2025-02-25 12:40:35,463 INFO    SenderThread:25819 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-02-25 12:40:36,226 INFO    Thread-17 :25819 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jonaslei/SVDP/tools/wandb/run-20250225_124033-dlmlcyk4/files/diff.patch
+2025-02-25 12:40:36,235 INFO    SenderThread:25819 [dir_watcher.py:finish():388] scan: /home/jonaslei/SVDP/tools/wandb/run-20250225_124033-dlmlcyk4/files
+2025-02-25 12:40:36,235 INFO    SenderThread:25819 [dir_watcher.py:finish():402] scan save: /home/jonaslei/SVDP/tools/wandb/run-20250225_124033-dlmlcyk4/files/diff.patch diff.patch
+2025-02-25 12:40:36,236 INFO    SenderThread:25819 [dir_watcher.py:finish():402] scan save: /home/jonaslei/SVDP/tools/wandb/run-20250225_124033-dlmlcyk4/files/conda-environment.yaml conda-environment.yaml
+2025-02-25 12:40:36,236 INFO    SenderThread:25819 [dir_watcher.py:finish():402] scan save: /home/jonaslei/SVDP/tools/wandb/run-20250225_124033-dlmlcyk4/files/config.yaml config.yaml
+2025-02-25 12:40:36,236 INFO    SenderThread:25819 [dir_watcher.py:finish():402] scan save: /home/jonaslei/SVDP/tools/wandb/run-20250225_124033-dlmlcyk4/files/code/tools/svdp.py code/tools/svdp.py
+2025-02-25 12:40:36,237 INFO    SenderThread:25819 [file_pusher.py:finish():175] shutting down file pusher
+2025-02-25 12:40:36,237 INFO    SenderThread:25819 [file_pusher.py:join():181] waiting for file pusher
+2025-02-25 12:40:37,005 INFO    wandb-upload_0:25819 [upload_job.py:push():131] Uploaded file /home/jonaslei/SVDP/tools/wandb/run-20250225_124033-dlmlcyk4/files/diff.patch
+2025-02-25 12:40:37,036 INFO    wandb-upload_1:25819 [upload_job.py:push():131] Uploaded file /home/jonaslei/SVDP/tools/wandb/run-20250225_124033-dlmlcyk4/files/config.yaml
+2025-02-25 12:40:37,107 INFO    wandb-upload_2:25819 [upload_job.py:push():131] Uploaded file /home/jonaslei/SVDP/tools/wandb/run-20250225_124033-dlmlcyk4/files/code/tools/svdp.py
+2025-02-25 12:40:37,739 INFO    SenderThread:25819 [file_stream.py:finish():595] file stream finish called
+2025-02-25 12:40:38,134 INFO    SenderThread:25819 [file_stream.py:finish():599] file stream finish is done
+2025-02-25 12:40:38,250 ERROR   StreamThr :25819 [internal.py:wandb_internal():174] Thread HandlerThread:
+Traceback (most recent call last):
+  File "/home/jonaslei/miniconda3/envs/svdp/lib/python3.7/site-packages/wandb/sdk/internal/internal_util.py", line 49, in run
+    self._run()
+  File "/home/jonaslei/miniconda3/envs/svdp/lib/python3.7/site-packages/wandb/sdk/internal/internal_util.py", line 100, in _run
+    self._process(record)
+  File "/home/jonaslei/miniconda3/envs/svdp/lib/python3.7/site-packages/wandb/sdk/internal/internal.py", line 279, in _process
+    self._hm.handle(record)
+  File "/home/jonaslei/miniconda3/envs/svdp/lib/python3.7/site-packages/wandb/sdk/internal/handler.py", line 138, in handle
+    handler(record)
+  File "/home/jonaslei/miniconda3/envs/svdp/lib/python3.7/site-packages/wandb/sdk/internal/handler.py", line 148, in handle_request
+    handler(record)
+  File "/home/jonaslei/miniconda3/envs/svdp/lib/python3.7/site-packages/wandb/sdk/internal/handler.py", line 686, in handle_request_run_start
+    self._system_monitor.probe(publish=True)
+  File "/home/jonaslei/miniconda3/envs/svdp/lib/python3.7/site-packages/wandb/sdk/internal/system/system_monitor.py", line 228, in probe
+    self.system_info.publish(system_info)
+  File "/home/jonaslei/miniconda3/envs/svdp/lib/python3.7/site-packages/wandb/sdk/internal/system/system_info.py", line 228, in publish
+    self._save_patches()
+  File "/home/jonaslei/miniconda3/envs/svdp/lib/python3.7/site-packages/wandb/sdk/internal/system/system_info.py", line 101, in _save_patches
+    upstream_commit = self.git.get_upstream_fork_point()
+  File "/home/jonaslei/miniconda3/envs/svdp/lib/python3.7/site-packages/wandb/sdk/lib/gitlib.py", line 200, in get_upstream_fork_point
+    possible_relatives.append(tracking_branch.commit)
+  File "/home/jonaslei/miniconda3/envs/svdp/lib/python3.7/site-packages/git/refs/symbolic.py", line 293, in _get_commit
+    obj = self._get_object()
+  File "/home/jonaslei/miniconda3/envs/svdp/lib/python3.7/site-packages/git/refs/symbolic.py", line 284, in _get_object
+    return Object.new_from_sha(self.repo, hex_to_bin(self.dereference_recursive(self.repo, self.path)))
+  File "/home/jonaslei/miniconda3/envs/svdp/lib/python3.7/site-packages/git/objects/base.py", line 98, in new_from_sha
+    oinfo = repo.odb.info(sha1)
+  File "/home/jonaslei/miniconda3/envs/svdp/lib/python3.7/site-packages/git/db.py", line 44, in info
+    hexsha, typename, size = self._git.get_object_header(bin_to_hex(binsha))
+  File "/home/jonaslei/miniconda3/envs/svdp/lib/python3.7/site-packages/git/cmd.py", line 1461, in get_object_header
+    return self.__get_object_header(cmd, ref)
+  File "/home/jonaslei/miniconda3/envs/svdp/lib/python3.7/site-packages/git/cmd.py", line 1446, in __get_object_header
+    cmd.stdin.flush()
+BrokenPipeError: [Errno 32] Broken pipe
