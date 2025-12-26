@@ -1,5 +1,9 @@
 # GaPaTTA
-Code for our paper: "GaPaTTA: Gaussian Entropy-Guided Prompt Placement for Test-Time Adaptation in Semantic Segmentation" (Springer Machine Learning)
+
+Official implementation for the paper:
+"GaPaTTA: Gaussian Entropy-Guided Prompt Placement for Test-Time Adaptation in Semantic Segmentation"
+(Springer Machine Learning)
+
 
 ## Overview
 
