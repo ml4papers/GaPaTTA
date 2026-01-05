@@ -2,7 +2,7 @@
 
 Official implementation for the paper:
 "GaPaTTA: Gaussian Entropy-Guided Prompt Placement for Test-Time Adaptation in Semantic Segmentation"
-(Springer Machine Learning)
+(Springer Machine Learning 2026)
 
 
 ## Overview
